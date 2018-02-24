@@ -19,7 +19,7 @@ return [
         ],
 
         'customers' =>  [
-            'no_deleted'    =>  'There are no deleted customers.'
+            'no_deleted'    =>  'There are no deleted clients.'
         ],
         
         'items' =>  [
@@ -27,7 +27,7 @@ return [
         ],
 
         'suppliers' =>  [
-            'no_deleted'    =>  'There are no deleted suppliers.',
+            'no_deleted'    =>  'There are no deleted distributors.',
         ],
 
         'access' => [

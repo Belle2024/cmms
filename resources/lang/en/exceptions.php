@@ -23,11 +23,11 @@ return [
         ],
 
         'customers'  =>  [
-            'cant_restore'          => 'This customer is not deleted so it can not be restored.',
-            'create_error'          => 'There was a problem creating this customer. Please try again.',
-            'delete_error'          => 'There was a problem deleting this customer. Please try again.',
-            'delete_first'          => 'This customer must be deleted first before it can be destroyed permanently.',
-            'email_error'           => 'That email address belongs to a different customer.',
+            'cant_restore'          => 'This client is not deleted so it can not be restored.',
+            'create_error'          => 'There was a problem creating this client. Please try again.',
+            'delete_error'          => 'There was a problem deleting this client. Please try again.',
+            'delete_first'          => 'This client must be deleted first before it can be destroyed permanently.',
+            'email_error'           => 'That email address belongs to a different client.',
         ],
 
         'carts' =>  [
@@ -51,11 +51,11 @@ return [
         ],
 
         'suppliers'  =>  [
-            'cant_restore'          => 'This supplier is not deleted so it can not be restored.',
-            'create_error'          => 'There was a problem creating this supplier. Please try again.',
-            'delete_error'          => 'There was a problem deleting this supplier. Please try again.',
-            'delete_first'          => 'This supplier must be deleted first before it can be destroyed permanently.',
-            'email_error'           => 'That email address belongs to a different supplier.',
+            'cant_restore'          => 'This distributor is not deleted so it can not be restored.',
+            'create_error'          => 'There was a problem creating this distributor. Please try again.',
+            'delete_error'          => 'There was a problem deleting this distributor. Please try again.',
+            'delete_first'          => 'This distributor must be deleted first before it can be destroyed permanently.',
+            'email_error'           => 'That email address belongs to a different distributor.',
         ],
 
         'access' => [

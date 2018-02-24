@@ -23,27 +23,27 @@ return [
         ],
 
         'customers' =>  [
-            'created'   =>  'Customer \':customer\' was successfully created.',
-            'deleted'   =>  'Customer \':customer\' was successfully deleted.',
-            'updated'   =>  'Customer \':customer\' was successfully updated',
-            'restored'  =>  'Customer \':customer\' was successfully restored.',
-            'deleted_permanently'   =>  'Customer \':customer\' was successfully deleted permanently.',
+            'created'   =>  'Client \':customer\' was successfully created.',
+            'deleted'   =>  'Client \':customer\' was successfully deleted.',
+            'updated'   =>  'Client \':customer\' was successfully updated',
+            'restored'  =>  'Client \':customer\' was successfully restored.',
+            'deleted_permanently'   =>  'Client \':customer\' was successfully deleted permanently.',
         ],
 
         'items' =>  [
-            'created'   =>  'Item \':item\' was successfully created.',
-            'deleted'   =>  'Item \':item\' was successfully deleted.',
-            'updated'   =>  'Item \':item\' was successfully updated',
-            'restored'  =>  'Item \':item\' was successfully restored.',
-            'deleted_permanently'   =>  'Item \':item\' was successfully deleted permanently.',
+            'created'   =>  'Inventory \':item\' was successfully created.',
+            'deleted'   =>  'Inventory \':item\' was successfully deleted.',
+            'updated'   =>  'Inventory \':item\' was successfully updated',
+            'restored'  =>  'Inventory \':item\' was successfully restored.',
+            'deleted_permanently'   =>  'Inventory \':item\' was successfully deleted permanently.',
         ],
 
         'suppliers' =>  [
-            'created'   =>  'Supplier \':supplier\' was successfully created.',
-            'deleted'   =>  'Supplier \':supplier\' was successfully deleted.',
-            'updated'   =>  'Supplier \':supplier\' was successfully updated',
-            'restored'  =>  'Supplier \':supplier\' was successfully restored.',
-            'deleted_permanently'   =>  'Supplier \':supplier\' was successfully deleted permanently.',
+            'created'   =>  'Distributor \':supplier\' was successfully created.',
+            'deleted'   =>  'Distributor \':supplier\' was successfully deleted.',
+            'updated'   =>  'Distributor \':supplier\' was successfully updated',
+            'restored'  =>  'Distributor \':supplier\' was successfully restored.',
+            'deleted_permanently'   =>  'Distributor \':supplier\' was successfully deleted permanently.',
         ],
 
         'roles' => [

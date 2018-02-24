@@ -20,7 +20,7 @@ return [
         ],
 
         'customers' =>  [
-            'delete'                =>  'Delete Customer',
+            'delete'                =>  'Delete Client',
             'delete_permanently'    =>  'Delete Permanently'
         ],
 
@@ -30,7 +30,7 @@ return [
         ],
 
         'suppliers' =>  [
-            'delete'                =>  'Delete Supplier',
+            'delete'                =>  'Delete Distributor',
             'delete_permanently'    =>  'Delete Permanently'
         ],
 

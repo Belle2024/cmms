@@ -138,7 +138,7 @@ return [
             'table' =>  [
                 'id'                    =>  'ID',
                 'name'                  =>  'Product Name',
-                'supplier'              =>  'Supplier',
+                'supplier'              =>  'Distributor',
                 'selling_price'         =>  'Selling Price',
                 'buying_price'          =>  'Buying Price',
                 'initial_weight_type'   =>  'Initial Weight Type',
@@ -163,7 +163,7 @@ return [
                     'overview'  =>  [
                         'id'                    =>  'ID',
                         'name'                  =>  'Product Name',
-                        'supplier'              =>  'Supplier',
+                        'supplier'              =>  'Distributor',
                         'selling_price'         =>  'Selling Price',
                         'buying_price'          =>  'Buying Price',
                         'initial_weight'        =>  'Initial Weight',
@@ -182,14 +182,14 @@ return [
         ],
 
         'suppliers'  =>  [
-            'create'    =>  'Create Supplier',
+            'create'    =>  'Create Distributor',
             'edit'      =>  'Edit :supplier',
-            'list'      =>  'Supplier\'s List',
+            'list'      =>  'Distributor\'s List',
             'view'      =>  'View :supplier',
-            'deleted'   =>  'Deleted Suppliers',
+            'deleted'   =>  'Deleted Distributors',
             'cart'      =>  'Cart',
 
-            'management'    =>  'Supplier Management',
+            'management'    =>  'Distributor Management',
 
             'table' =>  [
                 'id'                        =>  'ID',
@@ -211,7 +211,7 @@ return [
             'tabs'  =>  [
                 'titles'    =>  [
                     'overview'  =>  'Overview',
-                    'products'  =>  'Supplier Products',
+                    'products'  =>  'Distributor Products',
                     'cart'      =>  'Product Cart'
                 ],
 

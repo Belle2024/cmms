@@ -124,7 +124,7 @@ return [
 
         'backend' => [
             'customer'  =>  [
-                'name'                  =>  'Customer Name',
+                'name'                  =>  'Client Name',
                 'email'                 =>  'E-mail',
                 'contact_number'        =>  'Contact Number',
                 'address'               =>  'Address',

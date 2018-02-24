@@ -25,33 +25,33 @@ return [
         ],
 
         'customers'  =>  [
-            'title'     =>  'Customer Management',
+            'title'     =>  'Client Management',
 
-            'all'       =>  'All Customers',
-            'create'    =>  'Create Customer',
-            'edit'      =>  'Edit Customer',
-            'deleted'   =>  'Deleted Customers',
-            'main'      =>  'Customers'
+            'all'       =>  'All Clients',
+            'create'    =>  'Create Client',
+            'edit'      =>  'Edit Client',
+            'deleted'   =>  'Deleted Clients',
+            'main'      =>  'Clients'
         ],
 
         'items'  =>  [
-            'title'     =>  'Item Management',
+            'title'     =>  'Inventory Management',
 
             'all'       =>  'All Items',
             'create'    =>  'Create Item',
             'edit'      =>  'Edit Item',
-            'deleted'   =>  'Deleted Items',
-            'main'      =>  'Items'
+            'deleted'   =>  'Deleted Item',
+            'main'      =>  'Inventory'
         ],
 
         'suppliers'  =>  [
-            'title' =>  'Supplier Management',
+            'title' =>  'Distributor Management',
 
-            'all'       =>  'All Suppliers',
-            'create'    =>  'Create Supplier',
-            'edit'      =>  'Edit Supplier',
-            'deleted'   =>  'Deleted Suppliers',
-            'main'      =>  'Suppliers'
+            'all'       =>  'All Distributors',
+            'create'    =>  'Create Distributor',
+            'edit'      =>  'Edit Distributor',
+            'deleted'   =>  'Deleted Distributors',
+            'main'      =>  'Distributors'
         ],
 
         'access' => [
@@ -85,9 +85,9 @@ return [
 
         'sidebar' => [
             'dashboard' =>  'Dashboard',
-            'supplier'  =>  'Suppliers',
-            'item'      =>  'Items',
-            'customer'  =>  'Customers',
+            'supplier'  =>  'Distributors',
+            'item'      =>  'Inventory',
+            'customer'  =>  'Clients',
             'transaction'   =>  'Transactions',
             'general'   =>  'General',
             'system'    =>  'System',
