@@ -9,6 +9,8 @@ Route::group([
 
     Route::get('customer/deleted', 'CustomerStatusController@getDeleted')->name('customer.deleted');
 
+    Route::get('customer/{customer}/order', 'CustomerController@order')->name('customer.order');
+
     Route::resource('customer', 'CustomerController');
 
     Route::group(['prefix' => 'customer/{deletedCustomer}'], function () {

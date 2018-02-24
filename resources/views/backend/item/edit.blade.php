@@ -86,8 +86,7 @@
                     <div class="form-group row">
                         {{ html()->label(__('validation.attributes.backend.item.initial_weight'))->class('col-md-2 form-control-label')->for('initial_weight') }}
 
-                        <div class="input-group col-md-10">
-                            <span class="input-group-prepend input-group-text">kg</span>
+                        <div class="col-md-10">
                             {{ html()->text('initial_weight')
                                 ->class('form-control')
                                 ->placeholder(__('validation.attributes.backend.item.initial_weight'))
@@ -101,8 +100,7 @@
                         ->class('col-md-2 form-control-label')
                         ->for('final_weight') }}
 
-                        <div class="input-group col-md-10">
-                            <span class="input-group-prepend input-group-text">kg</span>
+                        <div class="col-md-10">
                             {{ html()->text('final_weight')
                                 ->class('form-control')
                                 ->placeholder(__('validation.attributes.backend.item.final_weight'))

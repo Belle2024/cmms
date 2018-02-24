@@ -27,6 +27,8 @@ class PermissionRoleTableSeeder extends Seeder
 
         // Create Permissions
         Permission::create(['name' => 'view backend']);
+        Permission::create(['name' => 'manage inventory']);
+        Permission::create(['name' => 'manage supplier']);
 
         // ALWAYS GIVE ADMIN ROLE ALL PERMISSIONS
         $admin->givePermissionTo('view backend');
